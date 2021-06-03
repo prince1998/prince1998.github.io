@@ -12,15 +12,15 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </head>
 <body class = "body-style">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+            <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#experience">Experience</a>
@@ -48,12 +48,16 @@
     </div>
   </nav>
   <br>
+
   <div class = "container">
   <div class = "row">
     <div class="col-md-12 col-sm-12">
-      <a name = "about-me"><h2>About Me</h2></a>
+      <a name = "about-me"><h2 class = "heading">About Me</h2></a>
     </div>
     <hr>
+    <div class = "col-md-4 col-sm-4">
+      <img src = "Photo.jpeg" class = "about-me-img">
+      </div>
     <div class="col-md-8 col-sm-8">
       <p class = "about-me">
       I am Priyansh Ramnani. I am a Computer Engineering graduate from NMIMS MPSTME, Mumbai <br>
@@ -66,13 +70,11 @@
     <br>
       I have been very active in my college and have attended various conferences.
       I have been part of various committees. I am a Student Placement Coordinator. I was a Technical Member in NOW Mozilla Club and have worked as a Marketing Executive for Social Conclave Event.
-      <br>
-      My hobbies include watching technical keynotes, TEDx talks, exploring new technologies and singing.
+
     </p>
     </div>
-  <div class = "col-md-4 col-sm-4">
-    <img src = "Photo.jpeg" class = "about-me-img">
-    </div>
+
+ 
 </div>
 
 <!-- <div class = "row">
@@ -93,7 +95,7 @@
 <div class = "row">
   <div class="col-md-12 col-sm-12">
   <a name = "experience">
-    <h2>Experience</h2>
+    <h2 class = "heading">Experience</h2>
   </a>
   <hr>
   <div class="experience-container">
@@ -131,7 +133,7 @@
 <div class = "row">
   <div class="col-md-12 col-sm-12">
   <a name = "projects">
-    <h2>Projects</h2>  
+    <h2 class = "heading">Projects</h2>  
   </a>
   <hr>
   <p>
@@ -161,7 +163,7 @@
 <div class = "row">
   <div class="col-md-12 col-sm-12">
   <a name = "published-papers">
-    <h2>Published Papers</h2>
+    <h2 class = "heading">Published Papers</h2>
   </a>
   <hr>
   <p>
@@ -173,7 +175,7 @@
 <div class = "row">
   <div class="col-md-12 col-sm-12">
   <a name = "certifications">
-    <h2>Certifications</h2>
+    <h2 class = "heading">Certifications</h2>
   </a>
   <hr>
 <ul>
@@ -203,7 +205,7 @@
 <div class = "row">
   <div class="col-md-12 col-sm-12">
   <a name = "committees">
-    <h2>Committees</h2>
+    <h2 class = "heading">Committees</h2>
 </a>
 <hr>
 <ul>
@@ -226,7 +228,7 @@
 <div class = "row">
   <div class="col-md-12 col-sm-12">
   <a name = "participations">
-    <h2>Events Participated</h2>
+    <h2 class = "heading">Events Participated</h2>
   </a>
   <hr>
   <ul>
@@ -257,7 +259,7 @@
 <div class = "row">
   <a name = "contact">
   <div class="col-md-12 col-sm-12">
-    <h2>Contact</h2>
+    <h2 class = "heading">Contact</h2>
   </a>
   <hr>
   <ul class = "socials">
@@ -285,6 +287,6 @@
 </div>
 
 </div>
-</div>
+
 </body>
 </html>
