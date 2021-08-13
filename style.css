@@ -68,6 +68,11 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
   
   .hero-text {
