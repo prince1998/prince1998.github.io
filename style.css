@@ -329,4 +329,8 @@ footer{
         background-color: #ddd;
         color: black;
     }
+
+    .content-links:hover{
+        color:white;
+    }
 }
