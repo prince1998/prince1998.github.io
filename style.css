@@ -322,3 +322,11 @@ footer{
   .wrapper > div {
     flex: 1 1 150px;
   }
+
+
+  @media (hover: none) {
+    .hero-text button:hover {
+        background-color: #ddd;
+        color: black;
+    }
+}
